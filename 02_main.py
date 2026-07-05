@@ -15,6 +15,6 @@ else:
         print(f"""Computer selected {b}.
 {b} beats {a}. You lose!""")
         
-        user_input = input("Do you want to play again? (yes/no): ")
-        if user_input.lower() == "yes":
+user_input = input("Do you want to play again? (yes/no): ")
+if user_input.lower() == "yes":
             exec(open("02_main.py").read()) 
