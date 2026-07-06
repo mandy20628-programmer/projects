@@ -1,3 +1,4 @@
+# CREATING A CALCULATOR
 def calculator():
     a1=int(input("Enter the first number: "))
     b=input("Enter the operator (+, -, *, /): ")
